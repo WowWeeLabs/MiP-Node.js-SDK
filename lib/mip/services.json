@@ -1,0 +1,77 @@
+{	"SEND_DATA": {
+		"uuid": "ffe5",
+		"characteristics": {
+			"SEND": "ffe9"
+		}
+	},
+	"RECEIVE_DATA": {
+		"uuid": "ffe0",
+		"characteristics": {
+			"RECEIVE": "ffe4"
+		}
+	},
+	"BATTERY_LEVEL": {
+		"uuid": "180f",
+		"characteristics": {
+			"REPORT": "2a19"
+		}
+	},
+	"RSSI_REPORT": {
+		"uuid": "ffa0",
+		"characteristics": {
+			"READ": "ffa1",
+			"SET_INTERVAL": "ffa2"
+		}
+	},
+	"DEVICE_INFO": {
+		"uuid": "180a",
+		"characteristics": {
+			"SYSTEM_ID": "2a23",
+			"MODULE_SOFTWARE": "2a26"
+		}
+	},
+	"DEVICE_SETTING": {
+		"uuid": "ff10",
+		"characteristics": {
+			"PRODUCT_ACTIVIATION": "ff1b"
+		}
+	},
+	"DFU": {
+		"uuid": "ff30",
+		"characteristics": {
+			"REBOOT_TO_MODE": "ff31"
+		}
+	},
+	"MODULE_PARAMETER": {
+		"uuid": "ff90",
+		"characteristics": {
+			"DEVICE_NAME": "ff91",
+			"BT_COMMUNICATION_INTERVAL": "ff92",
+			"UART_BAUD_RATE": "ff93",
+			"RESET_MODULE": "ff94",
+			"BOARDCAST_PERIOD": "ff95",
+			"PRODUCT_ID": "ff96",
+			"TRANSMIT_POWER": "ff97",
+			"CUSTOM_BOARDCAST_DATA": "ff98",
+			"REMOTE_CONTROL_EXTENSION": "ff99",
+			"STANDBY_MODE": "ff9a",
+			"SET_BT_COMMUNICATION_DATA": "ff9b",
+			"SET_BT_COMMUNICATION_ONOFF": "ff9c"
+		}
+	},
+	"NUVOTON_BOOTLOADER": {
+		"uuid": "ff00",
+		"characteristics": {
+			"GET_CLIP_STATUS": "ff01",
+			"RESTART_CLIP": "ff02",
+			"TRANSFER_FIRMWARE_HEADER": "ff03",
+			"STOP_TRANSFER": "ff04",
+			"TRANSFER_FIRMWARE_STATUS": "ff05",
+			"READ_FIRMWARE_STATUS": "ff06",
+			"WRITE_FIRMWARE_TO_NUVOTON": "ff07",
+			"FIRMWARE_WRITE_COMPLETE": "ff08",
+			"TRANSFER_FIRMWARE_DATA": "ff09",
+			"WRITE_FIRMWARE_PROGESS": "ff0a"
+		}
+	}
+}
