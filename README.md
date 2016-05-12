@@ -1,13 +1,21 @@
-## MiP-Node.js-SDK
-MiP-Node.js-SDK is MiP SDK for node.js
+WowWee MiP JavaScript (Node.js) SDK
+================================
+
+![](Images/MiP.png)
+
+The free MiP iOS SDK lets you control your [WowWee MiP robot](www.meetmip.com) on any devices which has a Bluetooth Low Energy adapter. To use this SDK you will also need a physical MiP robot.
+
+Pre-built official SDKs are also available for [Android](https://github.com/WowWeeLabs/MiP-Android-SDK), [PhoneGap](https://github.com/WowWeeLabs/MiP-PhoneGap-SDK), [Windows](https://github.com/WowWeeLabs/MiP-Windows-SDK.git).
+
+For information on WowWee products visit: <http://www.wowwee.com>
 
 ### Installation
-`npm install mipnode`
+`npm install wowweemip`
 
-### How to use
+### Usage
 ```
-var mipnode = require("mipnode");
-var mipFinder = new mipnode.Finder();
+var wowweemip = require("wowweemip");
+var mipFinder = new wowweemip.Finder();
 
 mipFinder.scan(function(err, robots) {
 	if (err != null) {
@@ -41,4 +49,4 @@ Logger is used by debug `npm install debug`
 
 - `DEBUG=mip* node example/mip.js` show more logs for mipnode library
 
-- `DEBUG=* node example/mip.js` show all logs for mipnode & noble librayies
+- `DEBUG=* node example/mip.js` show all logs for mipnode & noble libraries
