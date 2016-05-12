@@ -1,13 +1,13 @@
 {
-  "name": "mipnode",
-  "version": "0.0.0",
-  "description": "",
+  "name": "wowweemip",
+  "version": "1.0.0",
+  "description": "The free MiP Node.js SDK lets you control your WowWee MiP robot. For information on WowWee MiP visit www.wowwee.com/mip",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": ["WowWee Group Ltd", "Andy Savage <andy@savage.hk>"],
+  "license": "MIT",
   "dependencies": {
     "noble": "^1.3.0",
     "debug": "^2.2.0"
