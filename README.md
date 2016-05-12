@@ -1,7 +1,7 @@
 WowWee MiP JavaScript (Node.js) SDK
 ================================
 
-![](Images/MiP.png)
+![](Images/mip.png)
 
 The free MiP iOS SDK lets you control your [WowWee MiP robot](www.meetmip.com) on any devices which has a Bluetooth Low Energy adapter. To use this SDK you will also need a physical MiP robot.
 
