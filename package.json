@@ -1,7 +1,22 @@
 {
   "name": "wowweemip",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The free MiP Node.js SDK lets you control your WowWee MiP robot. For information on WowWee MiP visit www.wowwee.com/mip",
+  "homepage": "http://www.wowwee.com/mip",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WowWeeLabs/MiP-Node-SDK"
+  },
+  "keywords": [
+    "mip",
+    "wowwee",
+    "robot",
+    "sdk",
+    "balancing"
+  ],
+  "directories": {
+    "lib": "lib"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
