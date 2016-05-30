@@ -5,7 +5,7 @@
   "homepage": "http://www.wowwee.com/mip",
   "repository": {
     "type": "git",
-    "url": "https://github.com/WowWeeLabs/MiP-Node-SDK"
+    "url": "https://github.com/WowWeeLabs/MiP-Node.js-SDK"
   },
   "keywords": [
     "mip",
