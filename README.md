@@ -53,3 +53,8 @@ Logger is used by debug `npm install debug`
 - `DEBUG=mip* node example/mip.js` show more logs for mipnode library
 
 - `DEBUG=* node example/mip.js` show all logs for mipnode & noble libraries
+- 
+
+Projects using this SDK
+---------------------------------
+* Send us a pull request to add your app here
