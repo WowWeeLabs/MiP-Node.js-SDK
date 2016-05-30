@@ -55,4 +55,6 @@ Logger is used by debug `npm install debug`
 `DEBUG=* node example/mip.js` show all logs for mipnode & noble libraries
 
 ### Projects using this SDK
+* [Scratch2MiP](https://github.com/champierre/scratch2mip) - Control your MiP robot from the friendly scratch block programming language.
 * Send us a pull request to add your app here
+* 
